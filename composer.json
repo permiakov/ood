@@ -1,0 +1,6 @@
+{
+  "require": {
+    "myclabs/php-enum": "^1.7",
+    "php": "^7.0"
+  }
+}
