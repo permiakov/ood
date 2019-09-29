@@ -1,2 +1,4 @@
-# ood
-Training OOD(Object Oriented Design)
+# OOD
+Training in OOD(Object Oriented Design)
+
+- Parking application
