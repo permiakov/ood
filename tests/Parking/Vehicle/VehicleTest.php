@@ -19,7 +19,7 @@ class VehicleTest extends TestCase
      */
     public function testConstructor()
     {
-        $test = new class(VehicleType::CAR()) extends Vehicle
+        $test = new class (VehicleType::CAR()) extends Vehicle
         {
         };
         $this->assertEquals(VehicleType::CAR(), $test->getType());
@@ -31,7 +31,7 @@ class VehicleTest extends TestCase
      */
     public function testAssignTicket()
     {
-        $test = new class(VehicleType::CAR()) extends Vehicle
+        $test = new class (VehicleType::CAR()) extends Vehicle
         {
         };
         $ticket = new ParkingTicket();

@@ -31,7 +31,7 @@
     "phpunit/phpunit": "^7"
   },
   "scripts": {
-    "cs-check": "vendor/bin/phpcs  --standard=PSR2 src/",
-    "cs-fix": "vendor/bin/phpcbf  --standard=PSR2 src/"
+    "cs-check": "vendor/bin/phpcs  --standard=PSR12 src/ tests/",
+    "cs-fix": "vendor/bin/phpcbf  --standard=PSR12 src/ tests"
   }
 }
