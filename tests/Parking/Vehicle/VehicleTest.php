@@ -19,10 +19,10 @@ class VehicleTest extends TestCase
      */
     public function testConstructor()
     {
-        $test = new class (VehicleType::CAR()) extends Vehicle
+        $object = new class (VehicleType::CAR()) extends Vehicle
         {
         };
-        $this->assertEquals(VehicleType::CAR(), $test->getType());
+        $this->assertEquals(VehicleType::CAR(), $object->getType());
     }
 
     /**
@@ -31,12 +31,12 @@ class VehicleTest extends TestCase
      */
     public function testAssignTicket()
     {
-        $test = new class (VehicleType::CAR()) extends Vehicle
+        $object = new class (VehicleType::CAR()) extends Vehicle
         {
         };
         $ticket = new ParkingTicket();
 
-        $test->assignTicket($ticket);
-        $this->assertSame($ticket, $test->getTicket());
+        $object->assignTicket($ticket);
+        $this->assertSame($ticket, $object->getTicket());
     }
 }
