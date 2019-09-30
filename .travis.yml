@@ -10,7 +10,7 @@ install:
   - composer clear-cache
   - composer install --prefer-source
 script:
-  - ./vendor/bin/phpcs --standard=psr2 src/
+  - ./vendor/bin/phpcs --standard=psr12 src/
   - ./vendor/bin/phpunit --verbose --coverage-clover ./build/logs/coverage.clover tests/
 after_success:
   - wget https://scrutinizer-ci.com/ocular.phar
