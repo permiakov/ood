@@ -1,2 +1,5 @@
-.idea
-vendor
+/vendor
+/build
+composer.lock
+.DS_Store
+.idea/

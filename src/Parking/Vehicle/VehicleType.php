@@ -1,6 +1,6 @@
 <?php
 
-namespace Parking\Domain\Enum;
+namespace Permiakov\OOD\Parking\Vehicle;
 
 use MyCLabs\Enum\Enum;
 
