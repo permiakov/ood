@@ -2,21 +2,21 @@
 
 namespace Permiakov\OOD\Test\Parking\Vehicle;
 
-use Permiakov\OOD\Parking\Vehicle\Car;
+use Permiakov\OOD\Parking\Vehicle\Truck;
 use Permiakov\OOD\Parking\Vehicle\VehicleType;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @coversDefaultClass \Permiakov\OOD\Parking\Vehicle\Car
+ * @coversDefaultClass \Permiakov\OOD\Parking\Vehicle\Truck
  */
-class CarTest extends TestCase
+class TruckTest extends TestCase
 {
     /**
      * @covers ::__construct
      */
     public function testCarConstructor()
     {
-        $object = new Car();
-        $this->assertEquals(VehicleType::CAR(), $object->getType());
+        $test = new Truck();
+        $this->assertEquals(VehicleType::TRUCK(), $test->getType());
     }
 }
