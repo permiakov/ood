@@ -7,7 +7,7 @@ build:
     coverage:
       tests:
         before:
-          - command: ./vendor/bin/phpcs --standard=psr12 src/
+          - command: ./vendor/bin/phpcs --standard=psr12 src/ tests/
         override:
           - command: ./vendor/bin/phpunit --verbose --coverage-clover ./build/logs/coverage.clover tests/
             coverage:
