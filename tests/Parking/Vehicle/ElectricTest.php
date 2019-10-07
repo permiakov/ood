@@ -14,7 +14,7 @@ class ElectricTest extends TestCase
     /**
      * @covers ::__construct
      */
-    public function testCarConstructor()
+    public function testConstructor()
     {
         $test = new Electric();
         $this->assertEquals(VehicleType::ELECTRIC(), $test->getType());

@@ -14,7 +14,7 @@ class VanTest extends TestCase
     /**
      * @covers ::__construct
      */
-    public function testCarConstructor()
+    public function testConstructor()
     {
         $test = new Van();
         $this->assertEquals(VehicleType::VAN(), $test->getType());

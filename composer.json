@@ -32,6 +32,6 @@
   },
   "scripts": {
     "cs-check": "vendor/bin/phpcs  --standard=PSR12 src/ tests/",
-    "cs-fix": "vendor/bin/phpcbf  --standard=PSR12 src/ tests"
+    "cs-fix": "vendor/bin/phpcbf  --standard=PSR12 src/ tests/"
   }
 }

@@ -14,7 +14,7 @@ class CarTest extends TestCase
     /**
      * @covers ::__construct
      */
-    public function testCarConstructor()
+    public function testConstructor()
     {
         $object = new Car();
         $this->assertEquals(VehicleType::CAR(), $object->getType());

@@ -25,7 +25,7 @@ abstract class Vehicle
     /**
      * @param ParkingTicket $ticket
      */
-    public function assignTicket(ParkingTicket $ticket)
+    public function assignTicket(ParkingTicket $ticket): void
     {
         $this->ticket = $ticket;
     }
