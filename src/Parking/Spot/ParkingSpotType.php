@@ -5,11 +5,11 @@ namespace Permiakov\OOD\Parking\Spot;
 use MyCLabs\Enum\Enum;
 
 /**
- * @method string HANDICAPPED()
- * @method string COMPACT()
- * @method string LARGE()
- * @method string MOTORBIKE()
- * @method string ELECTRIC()
+ * @method static string HANDICAPPED()
+ * @method static string COMPACT()
+ * @method static string LARGE()
+ * @method static string MOTORBIKE()
+ * @method static string ELECTRIC()
  */
 class ParkingSpotType extends Enum
 {

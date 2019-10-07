@@ -5,11 +5,11 @@ namespace Permiakov\OOD\Parking\Vehicle;
 use MyCLabs\Enum\Enum;
 
 /**
- * @method string CAR()
- * @method string TRUCK()
- * @method string ELECTRIC()
- * @method string VAN()
- * @method string MOTORBIKE()
+ * @method static string CAR()
+ * @method static string TRUCK()
+ * @method static string ELECTRIC()
+ * @method static string VAN()
+ * @method static string MOTORBIKE()
  */
 class VehicleType extends Enum
 {
