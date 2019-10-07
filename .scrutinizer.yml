@@ -6,6 +6,8 @@ build:
           - php-scrutinizer-run
     coverage:
       tests:
+        before:
+          - command: ./vendor/bin/phpcs --standard=psr12 src/
         override:
           - command: ./vendor/bin/phpunit --verbose --coverage-clover ./build/logs/coverage.clover tests/
             coverage:
