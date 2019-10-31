@@ -1,6 +1,6 @@
 <?php
 
-namespace Permiakov\OOD\Parking\Ticket;
+namespace Permiakov\OOD\Parking\Domain\Ticket;
 
 class ParkingTicketStatus
 {

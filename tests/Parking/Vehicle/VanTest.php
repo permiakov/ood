@@ -2,12 +2,12 @@
 
 namespace Permiakov\OOD\Test\Parking\Vehicle;
 
-use Permiakov\OOD\Parking\Vehicle\Van;
-use Permiakov\OOD\Parking\Vehicle\VehicleType;
+use Permiakov\OOD\Parking\Domain\Vehicle\Van;
+use Permiakov\OOD\Parking\Domain\Vehicle\VehicleType;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @coversDefaultClass \Permiakov\OOD\Parking\Vehicle\Van
+ * @coversDefaultClass \Permiakov\OOD\Parking\Domain\Vehicle\Van
  */
 class VanTest extends TestCase
 {

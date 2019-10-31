@@ -1,6 +1,6 @@
 <?php
 
-namespace Permiakov\OOD\Parking\Vehicle;
+namespace Permiakov\OOD\Parking\Domain\Vehicle;
 
 class Car extends Vehicle
 {

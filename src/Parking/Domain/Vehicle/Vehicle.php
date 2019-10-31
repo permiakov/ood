@@ -1,8 +1,8 @@
 <?php
 
-namespace Permiakov\OOD\Parking\Vehicle;
+namespace Permiakov\OOD\Parking\Domain\Vehicle;
 
-use Permiakov\OOD\Parking\Ticket\ParkingTicket;
+use Permiakov\OOD\Parking\Domain\Ticket\ParkingTicket;
 
 abstract class Vehicle
 {

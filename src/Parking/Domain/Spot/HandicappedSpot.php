@@ -1,6 +1,6 @@
 <?php
 
-namespace Permiakov\OOD\Parking\Spot;
+namespace Permiakov\OOD\Parking\Domain\Spot;
 
 class HandicappedSpot extends ParkingSpot
 {

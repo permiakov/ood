@@ -2,12 +2,12 @@
 
 namespace Permiakov\OOD\Test\Parking\Vehicle;
 
-use Permiakov\OOD\Parking\Vehicle\Truck;
-use Permiakov\OOD\Parking\Vehicle\VehicleType;
+use Permiakov\OOD\Parking\Domain\Vehicle\Truck;
+use Permiakov\OOD\Parking\Domain\Vehicle\VehicleType;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @coversDefaultClass \Permiakov\OOD\Parking\Vehicle\Truck
+ * @coversDefaultClass \Permiakov\OOD\Parking\Domain\Vehicle\Truck
  */
 class TruckTest extends TestCase
 {

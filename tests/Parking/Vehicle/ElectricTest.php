@@ -2,12 +2,12 @@
 
 namespace Permiakov\OOD\Test\Parking\Vehicle;
 
-use Permiakov\OOD\Parking\Vehicle\Electric;
-use Permiakov\OOD\Parking\Vehicle\VehicleType;
+use Permiakov\OOD\Parking\Domain\Vehicle\Electric;
+use Permiakov\OOD\Parking\Domain\Vehicle\VehicleType;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @coversDefaultClass \Permiakov\OOD\Parking\Vehicle\Electric
+ * @coversDefaultClass \Permiakov\OOD\Parking\Domain\Vehicle\Electric
  */
 class ElectricTest extends TestCase
 {

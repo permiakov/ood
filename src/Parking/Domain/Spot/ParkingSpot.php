@@ -1,8 +1,8 @@
 <?php
 
-namespace Permiakov\OOD\Parking\Spot;
+namespace Permiakov\OOD\Parking\Domain\Spot;
 
-use Permiakov\OOD\Parking\Vehicle\Vehicle;
+use Permiakov\OOD\Parking\Domain\Vehicle\Vehicle;
 
 abstract class ParkingSpot
 {
